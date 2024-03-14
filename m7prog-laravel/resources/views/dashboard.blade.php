@@ -24,7 +24,7 @@
 
         <section>
             <div>
-                <p class= "text-white flex justify-center ">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                <p class= "text-red-600 flex justify-center ">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                      Possimus quisquam facere odit repudiandae doloribus cumque in non fugit eum dolorem iusto,
                       ab asperiores rem aliquam eveniet molestiae atque, suscipit nobis!</p>
             </div>
@@ -36,7 +36,7 @@
                 <h1 class="text-xl font-semibold">Portfolio</h1>
                 <nav>
                     <ul class="flex space-x-4">
-                        <li><a href="#" class="hover:text-gray-300"> Copyright</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Copyright</a></li>
                 
                     </ul>
                 </nav>
