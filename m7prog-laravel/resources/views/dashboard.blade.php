@@ -13,7 +13,11 @@
                 <nav>
                     <ul class="flex space-x-4">
                         <li><a href="#" class="hover:text-gray-300"> Home</a></li>
-                        <li><a href="#" class="hover:text-gray-300"> About</a></li>
+                        <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('about')" :active="request()->routeIs('about')">
+                        {{ __('About') }}
+                    </x-nav-link>
+                </div>
                         <li><a href="#" class="hover:text-gray-300"> blah blah</a></li>
                         <li><a href="#" class="hover:text-gray-300"> Contact</a></li>
                     </ul>
